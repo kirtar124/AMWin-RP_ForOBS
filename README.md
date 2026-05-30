@@ -10,7 +10,7 @@ Lightweight, practical, and highly customizable—this tool bridges the gap betw
 
 ## ✨ Key Features (English)
 
-* **🎥 Exports real-time data:** Exports real-time playback data (metadata, timing, album art, and lyrics) into a structured `nowplaying.json` file. It works seamlessly out-of-the-box with our [OBS Apple Music Lyrics Overlay](https://github.com/kirtar124/obs-lyrics-overlay), or you can consume the JSON data to build your own custom overlay!
+* **🎥 Exports real-time data:** Exports real-time playback data (metadata, timing, album art, and lyrics) into a structured `nowplaying.json` file. It works seamlessly out-of-the-box with our [OBS Apple Music Lyrics Overlay]([https://github.com/kirtar124/obs-lyrics-overlay](https://github.com/kirtar124/Applemusic-nowplaying-dynamic-lyrics-widget-forObs)), or you can consume the JSON data to build your own custom overlay!
 * **💬 Discord Rich Presence:** Show off what you're currently listening to on your Discord profile in real-time.
 * **🎵 Scrobbling Support:** Automatically scrobble your tracks to Last.fm and ListenBrainz.
 * **⚙️ Comprehensive Settings:** A built-in UI to configure startup behavior, language, Apple Music region, and toggle specific integrations on or off.
