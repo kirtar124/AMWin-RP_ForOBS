@@ -135,6 +135,7 @@ namespace AMWin_RichPresence {
                 logger?.Log($"Something went wrong while scraping: {ex}");
             }
             refreshHandler(currentSong);
+	    NowPlayingJsonExporter.Export(currentSong, includeLyrics: true);
         }
 
         public async Task GetAppleMusicInfo() {
@@ -143,6 +144,7 @@ namespace AMWin_RichPresence {
             if (!amProcesses.Any()) {
                 logger?.Log("Could not find an AppleMusic.exe process");
                 currentSong = null;
+		NowPlayingJsonExporter.Export(currentSong, includeLyrics: true);
                 return;
             }
 

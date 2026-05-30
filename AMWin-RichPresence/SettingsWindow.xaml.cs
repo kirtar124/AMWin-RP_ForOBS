@@ -232,6 +232,13 @@ namespace AMWin_RichPresence {
                 }.ShowDialogAsync();
             }
         }
+	private void TextBox_JsonExportPath_LostFocus(object sender, RoutedEventArgs e) {
+    Properties.Settings.Default.JsonExportPath = TextBox_JsonExportPath.Text.Trim();
+    SaveSettings();
+}
+private void CheckBox_EnableJsonExport_Click(object sender, RoutedEventArgs e) {
+    SaveSettings();
+}
 
         private void CheckBox_LastfmEnable_Click(object sender, RoutedEventArgs e) {
             SaveSettings();
