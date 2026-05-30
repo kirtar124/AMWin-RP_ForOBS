@@ -26,6 +26,6 @@ Lightweight, practical, and highly customizable—this tool bridges the gap betw
 ### Option 2: Build from Source
 Ensure you have the [.NET 10 SDK](https://dotnet.microsoft.com/download) installed.
 ```bash
-git clone [https://github.com/YOUR_USERNAME/AMWin-RP_ForOBS.git](https://github.com/YOUR_USERNAME/AMWin-RP_ForOBS.git)
+git clone [https://github.com/kirtar124/AMWin-RP_ForOBS.git](https://github.com/kirtar124/AMWin-RP_ForOBS.git)
 cd AMWin-RP_ForOBS
 dotnet publish AMWin-RichPresence/AMWin-RichPresence.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true
