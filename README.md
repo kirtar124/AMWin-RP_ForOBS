@@ -9,7 +9,7 @@ Lightweight, practical, and highly customizable—this tool bridges the gap betw
 
 ## ✨ Key Features (English)
 
-* **🎥 OBS Overlay :** Exports real-time playback data (metadata, timing, album art, and lyrics) into a structured `nowplaying.json` file.
+* **🎥 Exports real-time data :** Exports real-time playback data (metadata, timing, album art, and lyrics) into a structured `nowplaying.json` file.
 * **💬 Discord Rich Presence:** Show off what you're currently listening to on your Discord profile in real-time.
 * **🎵 Scrobbling Support:** Automatically scrobble your tracks to Last.fm and ListenBrainz.
 * **⚙️ Comprehensive Settings:** A built-in UI to configure startup behavior, language, Apple Music region, and toggle specific integrations on or off.
