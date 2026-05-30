@@ -1,9 +1,6 @@
 # Run this to generate releases. You need to supply the publish profiles.
 
-dotnet publish AMWin-RichPresence/AMWin-RichPresence.csproj -p:PublishProfile=NoRuntime-arm64
-dotnet publish AMWin-RichPresence/AMWin-RichPresence.csproj -p:PublishProfile=NoRuntime-x64
-dotnet publish AMWin-RichPresence/AMWin-RichPresence.csproj -p:PublishProfile=WithRuntime-arm64
-dotnet publish AMWin-RichPresence/AMWin-RichPresence.csproj -p:PublishProfile=WithRuntime-x64
+dotnet publish AMWin-RichPresence/AMWin-RichPresence.csproj -c Release -r win-x64 --self-contained true
 
 $projectPath = "AMWin-RichPresence\AMWin-RichPresence.csproj"
 $xml = [xml](Get-Content $projectPath)
